@@ -3,3 +3,5 @@ When I initialize a repository, a GIT directory is created. It looks like it con
 The staging area is like your shopping cart -- you add files you like to commit but you'll have a chance to review them before actually committing them to the repository. 
 
 The staging area is useful in a sense that if you made changes in multiple files, you can add one at a staging area, then commit it before repeating the process to each one of the files. That way you'll have a separate commit for each changes you did in multiple files.
+
+Branches are useful if you want to keep 'parallel universes' of your code -- that is you want several features that should not yet be present in the master or to other branches to develop and have its own history. That way you can manage them separately and not have one complex code containing everything.
