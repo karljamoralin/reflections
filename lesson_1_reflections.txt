@@ -1,0 +1,15 @@
+I'm used to looking at version compare differences from ABAP. Sometimes the bugs or typos can hide from your eyesight, but comparing versions is something I'll recommend doing every time you have a new version, as it helps you catch bugs and typos as much as possible early on. 
+
+Learned how to change preferences here in sublime! Used width 100 to auto break text. Makes it more readable. 
+
+Having access to change logs? Lets you go back to the changes done before when needed, without spending too much time reverting your changes manually. 
+
+Most probably if versions are automatically saved, you'll get commits that you don't want to because it doesn't make sense at that point. On the other hand, it's a safer alternative if you forget to commit something and then your computer crashes. There can be a compromise here -- perhaps a mix of manually committing and having an automatic save every 6-12 hours?
+
+GIT allows saving multiple files in one commit because codes can be dependent on a specific version of another file, which state also needs to be preserved during the commit.
+
+GIT log is used to view the history of commits plus the short messages/comments. It's the change log of the repository. git diff is used to compare differences between commits. It will show you the lines added/changed/removed between files in commits.
+
+Version control gives me more confidence that if something breaks, I can go back to change logs and see what exactly caused it. 
+
+Git knowledge is needed for me to continue with android development learning.

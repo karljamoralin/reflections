@@ -1,0 +1,1 @@
+When I initialize a repository, a GIT directory is created. It looks like it contains the configurations necessary to run a GIT repository. If you don't do git init, your directory won't be a git repository, just a normal directory.
