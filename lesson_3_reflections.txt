@@ -1,2 +1,4 @@
 When would you want to use a remote repository rather than keeping all your work local?
 When I want to share my code to others, I'll use a remote repository. 
+
+You want to pull your changes manually so that you'll have a finer control when you want your local copy to be updated, in case you have codes locally that you don't want yet to be overwritten. 
