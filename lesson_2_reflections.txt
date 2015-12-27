@@ -9,3 +9,5 @@ Branches are useful if you want to keep 'parallel universes' of your code -- tha
 Drawing diagrams of all the commits and branches lets you see in a glance how far is your code branching, which gives you an idea how many separate features are being worked on, needs to be merged, or are unreachable.
 
 Merging two branches will result to having both changes combined into one file. I'm still not 100% clear on how the merging works, how it resolves conflicts and dependencies, but I guess I'll learn its mechanics once I'm actually using it. 
+
+With automatic merging, you don't have to worry about manually checking conflicts, which can save time. However, you run the risk of having erroneous merges as Git will not take into account semantic differences when merging code. In manual merging, it's more flexible and accurate but is more time-consuming as you have to review the merges.
