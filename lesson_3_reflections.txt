@@ -8,3 +8,6 @@ Forks are used to create a copy of a repository from GitHub. It only functions i
 Having a local copy of the last known remote state will help you check immediately any differences between your latest working code and that working state. Helpful to not wonder what's the latest state in the remote, and prevent lots of conflicts when merging later on. 
 
 Without GitHub, we'll most likely collaborate either via chat, email, or face to face. We have to decide early on what how to resolve conflicts, and agree on a final version. Or most likely only one person can edit the code at a time. This is the same as what we're doing for ABAP code, since it's version control system doesn't allow forks and branches and merging.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+You want to still make your changes in a separate branch rather than in master to minimize any possible issues with your production code. Having it in a separate branch gives you many opportunities to review the code during testing, merge revviews, and pull requests.
