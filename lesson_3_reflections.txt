@@ -4,3 +4,5 @@ When I want to share my code to others, I'll use a remote repository.
 You want to pull your changes manually so that you'll have a finer control when you want your local copy to be updated, in case you have codes locally that you don't want yet to be overwritten. 
 
 Forks are used to create a copy of a repository from GitHub. It only functions inside GitHub. GitHub counts the number of forks made. Clone is used to copy a repository from GitHub or other sites to your local. Branch is to make a parallel version of your repository, useful for experimental features, bug fixes, without affecting the master.
+
+Having a local copy of the last known remote state will help you check immediately any differences between your latest working code and that working state. Helpful to not wonder what's the latest state in the remote, and prevent lots of conflicts when merging later on. 
